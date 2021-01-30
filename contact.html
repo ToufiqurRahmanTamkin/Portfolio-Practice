@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <section class="body-decoration">
+        <section id="main">
+            <nav>
+                <!--menu-------------->
+                <ul class="menu" style="list-style: none; display: flex;">
+                    <li><a style="text-decoration: none;" href="index.html">Home</a></li>
+                    <li><a style="text-decoration: none;" href="skils.html">Skills</a></li>
+                    <li><a style="text-decoration: none;" href="study.html">Study</a></li>
+                    <li><a style="text-decoration: none;" href="research.html">Research</a></li>
+                    <li><a style="text-decoration: none;" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="container">
+            <div style="text-align:center">
+                <h1>Contact Me</h1>
+                <p>If you have any query regarding my skill feel free to hit a message</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="images/handhsake-removebg.png" style="width:100%">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your E-mail..">
+                        <label for="country">Country</label>
+
+                        <select id="country" name="country">
+                            <option value="australia">Bangladesh</option>
+                            <option value="canada">India</option>
+                            <option value="usa">Canada</option>
+                            <option value="australia">pakistan</option>
+                            <option value="canada">Japan</option>
+                            <option value="usa">China</option>
+                        </select>
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write about your query.." style="height:100px"></textarea>
+                        <button class="submitButton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: rgb(17, 151, 175);
+}
+
+.body-decoration {
+    /* background-color: rgb(23, 184, 184); */
+    width: 100%;
+    height: 950px;
+}
+
+.container {
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#main {
+    width: 100%;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(17, 151, 175);
+}
+
+nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #585b5b;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    background-color: #2adabc;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+/* Style inputs */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.submitButton {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(9, 55, 56);
+    color: white;
+    font-size: 15px;
+}
+
+.submitButton:hover {
+    background-color: rgb(19, 235, 163);
+}
+
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
